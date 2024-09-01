@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #262626;
+    color: #fff;
+}
+
+main h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#purchase-btn {
+    background-color: #101010;
+    padding: 3px 5px;
+    border: none;
+    border-radius: 50px;
+}
+
+#cash {
+    width: 85%;
+}
+
+main {
+    padding: 1rem 1rem;
+    border-radius: 25px;
+    background-color: #404040;
+}

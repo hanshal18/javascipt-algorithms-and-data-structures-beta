@@ -1,0 +1,36 @@
+<!--
+You should have an input element with an id of "number"
+You should have a button element with an id of "convert-btn"
+You should have a div, span or p element with an id of output
+When you click on the #convert-btn element without entering a value into the #number element, the #output element should contain the text "Please enter a valid number"
+When the #number element contains the number -1 and the #convert-btn element is clicked, the #output element should contain the text "Please enter a number greater than or equal to 1"
+When the #number element contains the number 4000 or greater and the #convert-btn element is clicked, the #output element should contain the text "Please enter a number less than or equal to 3999"
+When the #number element contains the number 9 and the #convert-btn element is clicked, the #output element should contain the text "IX"
+When the #number element contains the number 16 and the #convert-btn element is clicked, the #output element should contain the text "XVI"
+When the #number element contains the number 649 and the #convert-btn element is clicked, the #output element should contain the text "DCXLIX"
+When the #number element contains the number 1023 and the #convert-btn element is clicked, the #output element should contain the text "MXXIII"
+When the #number element contains the number 3999 and the #convert-btn element is clicked, the #output element should contain the text "MMMCMXCIX"
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roman Number Converter</title>
+    <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+    <main>
+        <h1>Roman Number Converter</h1>
+        <form action="" id="form">
+            <input type="number" name="number" id="number">
+            <button type="submit" id="convert-btn">🔍</button>
+        </form>
+        <span id="output"></span>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
